@@ -1,0 +1,179 @@
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  
+})
+  
+$(window).scroll(function(){
+	if ($(this).scrollTop() > 50) {
+	   $('.header-section').addClass('fixed');
+	} else {
+	   $('.header-section').removeClass('fixed');
+	}
+});
+
+/*== counter =========*/
+var counted = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter').offset().top - window.innerHeight;
+  if (counted == 0 && $(window).scrollTop() > oTop) {
+    $('.count').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 2000,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+            //alert('finished');
+          }
+
+        });
+    });
+    counted = 1;
+  }
+
+});
+/*==============================*/
+
+
+
+
+$(document).ready(function(){
+	$(".recycle-slider-section .slider").slick({
+	infinite: true,
+	arrows: false,
+	dots: false,
+	fade: true,
+	autoplay: false,
+	speed: 800,
+	slidesToShow: 1,
+	slidesToScroll: 1,
+
+	});
+
+	//ticking machine
+	var percentTime;
+	var tick;
+	var time = 1;
+	var progressBarIndex = 0;
+
+	$('.progressBarContainer .progressBar').each(function(index) {
+	    var progress = "<div class='inProgress inProgress" + index + "'></div>";
+	    $(this).html(progress);
+	});
+
+	function startProgressbar() {
+	    resetProgressbar();
+	    percentTime = 0;
+	    tick = setInterval(interval, 10);
+	}
+
+	function interval() {
+	    if (($('.slider .slick-track div[data-slick-index="' + progressBarIndex + '"]').attr("aria-hidden")) === "true") {
+	        progressBarIndex = $('.slider .slick-track div[aria-hidden="false"]').data("slickIndex");
+	        startProgressbar();
+	    } else {
+	        percentTime += 1 / (time + 5);
+	        $('.inProgress' + progressBarIndex).css({
+	            width: percentTime + "%"
+	        });
+	        if (percentTime >= 100) {
+	            $('.single-item').slick('slickNext');
+	            progressBarIndex++;
+	            if (progressBarIndex > 2) {
+	                progressBarIndex = 0;
+	            }
+	            startProgressbar();
+	        }
+	    }
+	}
+
+	function resetProgressbar() {
+	    $('.inProgress').css({
+	        width: 0 + '%'
+	    });
+	    clearInterval(tick);
+	}
+	startProgressbar();
+	// End ticking machine
+
+	$('.progressBarContainer div').click(function () {
+		clearInterval(tick);
+		var goToThisIndex = $(this).find("span").data("slickIndex");
+		$('.single-item').slick('slickGoTo', goToThisIndex, false);
+		startProgressbar();
+	});	
+		
+});
+
+$(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: true,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+
+
+
+  $("button.navbar-toggle").click(function(){
+	//$("#myNavbar1").css({"left": "0","display": "block"});
+	$(".header-section").addClass("in");
+  });
+
+$("header.header-section .dropdown").mouseover(function() {
+    $(".header-section").addClass("header-fixed");		
+}).mouseout(function() {
+    $(".header-section").removeClass("header-fixed");    
+});
+
+$(".navbar div.navbarcollapse.collapse").click(function() {
+    $(".navbar div.navbarcollapse.collapse").removeClass("in");		
+})
