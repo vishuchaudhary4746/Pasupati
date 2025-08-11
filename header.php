@@ -38,7 +38,7 @@
 			  </div>
 			</div>
 		</li>
-        <li class="dropdown"><a href="#">Businesses</a>
+        <li class="dropdown"><a href="business-listing-page.php">Businesses</a>
 			<div class="dropdown-content multi-col">
 			  <div class="header">
 				<h2>Our Businesses</h2>
