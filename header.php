@@ -47,10 +47,10 @@
 				<div class="column">
 				  <h3>Recycling Unit</h3>
 				  <ul>
-				  <li><a href="#">Pashupati Polytex Pvt. Ltd.</a></li>
-				  <li><a href="#">Pashupati Excrusion Pvt. Ltd.</a></li>
-				  <li><a href="#">Kundana Techno Tex Pvt. Ltd.</a></li>
-				  <li><a href="#">Saurabh Clean Tech Pvt. Ltd.</a></li>
+				  <li><a href="business-page1.php">Pashupati Polytex Pvt. Ltd.</a></li>
+				  <li><a href="business-page2.php">Pashupati Excrusion Pvt. Ltd.</a></li>
+				  <li><a href="business-page3.php">Kundana Techno Tex Pvt. Ltd.</a></li>
+				  <li><a href="business-page4.php">Saurabh Clean Tech Pvt. Ltd.</a></li>
 				  </ul>
 				</div>
 				<div class="column">

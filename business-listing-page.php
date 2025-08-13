@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include('head.php') ?>
-<link rel="stylesheet" href="business-listing.css">
+<link rel="stylesheet" href="business-homepage-.css">
+<head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
 <body>
     <?php include('header.php') ?>
     <div id="business-bg-div"><img id="business-bg" src="images/image 837.jpg" alt=""></div>
@@ -9,7 +16,7 @@
         <div id="section-1-container">
             <h3>Our Businesses</h3>
 
-            <h1>Lorem ipsum dolor sit <br> amet, consectetur</h1>
+            <h1>Lorem ipsum dolor sit amet, consectetur</h1>
             <div id="section-1-footer">
                 <img src="images/home-03.png" alt="">
                 <h6>/</h6>
@@ -68,36 +75,39 @@ environmental stewardship. Today, we stand as a trailblazer in transforming chal
 
     </section>
     <section id="section-6">
-        <div class="section-6-div">
+        <div>
+            <div class="section-6-div">
             <img src="images/Layer_1.svg" alt="">
-            <h3>Heading</h3>
+            <h3>3L Tons</h3>
             <h6>Processing Capacity Per Annum</h6>
         </div>
         <div class="section-6-div">
             <img src="images/Layer_1 (1).svg" alt="">
-            <h3>Heading</h3>
+            <h3>20</h3>
             <h6>Global Network Offices</h6>
         </div>
         <div class="section-6-div">
             <img src="images/Layer_1 (2).svg" alt="">
-            <h3>Heading</h3>
+            <h3>08</h3>
             <h6>Manufacturing Units in India</h6>
         </div>
         <div class="section-6-div">
             <img src="images/Layer_1 (3).svg" alt="">
-            <h3>Heading</h3>
+            <h3>25+</h3>
             <h6>Exporting Countries</h6>
         </div>
         <div class="section-6-div">
             <img src="images/Layer_1 (4).svg" alt="">
-            <h3>Heading</h3>
+            <h3>08+</h3>
             <h6>Sectors Served</h6>
         </div>
         <div class="section-6-div">
             <img src="images/Layer_1 (5).svg" alt="">
-            <h3>Heading</h3>
+            <h3>3,000+</h3>
             <h6>Happy Family of Pashupati</h6>
         </div>
+        </div>
+        
     </section>
     <?php include('footer.php') ?>
 </body>
