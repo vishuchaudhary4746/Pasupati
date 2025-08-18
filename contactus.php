@@ -25,6 +25,117 @@
     </section>
 
 
+
+
+    <section class="contact-section">
+    <div class="contact-left">
+      <h2>Our Sales & Marketing / Corporate Office</h2>
+      <p>
+        A sustainable business is one that can live within the constraints of a two degree 
+        sustainable world. A business that can reduce its impact on the externalities, as 
+        required by the shrinking legal space within which it must operate, as well as one that 
+        can adapt to external factors that are driven by global megatrends that will inevitably 
+        affect it.
+      </p>
+
+      <!-- Corporate Office -->
+      <div class="office-card">
+        <h3>Corporate Office</h3>
+        <div>
+            <img src="images/image1234.png" alt="">
+            <p>Village Hariyawala, Hariyawla-Kunda Road, Kashipur - 244713, Dist.: Udham Singh Nagar, Uttarakhand, India.</p>
+        </div>
+        <div>
+            <img src="images/image11.png" alt="">
+            <p><a href="mailto:corporate@pashupatiggrp.com">corporate@pashupatiggrp.com</a></p>
+        </div>
+        <div>
+            <img src="images/image12.png" alt="">
+            <p> +91-9634097028</p>
+        </div>
+        
+      </div>
+
+      <!-- Noida Office -->
+        <div class="office-card">
+        <h3>Sales & Marketing Office ( Noida )</h3>
+        <div>
+            <img src="images/image1234.png" alt="">
+            <p>Office No- 2603 A/3b/04, 26th Floor, The Iconic, A-41, The correnthum, Sector-62, Noida, 201301, India</p>
+        </div>
+        <div>
+            <img src="images/image11.png" alt="">
+            <p><a href="mailto:corporate@pashupatiggrp.com">corporate@pashupatiggrp.com</a></p>
+        </div>
+        <div>
+            <img src="images/image12.png" alt="">
+            <p></p> +91-9634097028</p>
+        </div>
+        
+      </div>
+      
+
+      <!-- Mumbai Office -->
+      <div class="office-card">
+        <h3>Sales & Marketing Office ( Mumbai )</h3>
+        <div>
+            <img src="images/image1234.png" alt="">
+            <p>201, Vasant Vihar Commercial Complex, Dr. C. G. Road, Above Kotak Bank, Chembur - 400074, Mumbai, India</p>
+        </div>
+        <div>
+            <img src="images/image11.png" alt="">
+            <p><a href="mailto:corporate@pashupatiggrp.com">corporate@pashupatiggrp.com</a></p>
+        </div>
+        <div>
+            <img src="images/image12.png" alt="">
+            <p> +91-9634097028</p>
+        </div>
+        
+      </div>
+      </div>
+
+    <!-- Right Side Form -->
+    <div class="contact-right">
+      <h2>Get in Touch</h2>
+      <p>Please provide us with information about your company and we’ll get in touch shortly.</p>
+      
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Full Name*" required>
+          <input type="text" placeholder="Job title">
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Company name">
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email*" required>
+          <input type="tel" placeholder="Mobile Number*" required>
+        </div>
+        <div class="form-group">
+          <select>
+            <option>Select your product</option>
+          </select>
+          <select>
+            <option>Select product use</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select>
+            <option>eg. India</option>
+          </select>
+          <select>
+            <option>eg. Gurugram</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Leave your queries or message here."></textarea>
+        </div>
+        <button type="submit">Submit →</button>
+      </form>
+    </div>
+  </section>
+
+
     <section id="section-5">
         <h2>Our Corporate Office Location</h2>
     </section>
@@ -67,8 +178,6 @@
                 <h3>Pashupati Excrusion Pvt. Ltd.</h3>
                 <h6>Kashipur, Uttarakhand</h6>
             </div>
-        </div>
-        <div id="section-4-lower">
             <div class="section-4-imgbox">
                 <img src="images/image 834 (2).png" alt="">
                 <h3>Kundana Techno Tex Pvt. Ltd.</h3>
@@ -80,6 +189,7 @@
                 <h6>Kashipur, Uttarakhand</h6>
             </div>
         </div>
+        
     </section>
 
 

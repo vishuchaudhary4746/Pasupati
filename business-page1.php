@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include('head.php') ?>
-<link rel="stylesheet" href="business-page-1.css">
+<link rel="stylesheet" href="business-page--1.css">
 <head><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -54,31 +54,49 @@ DG sets have been installed in the premises to provide 100% power backup to the 
     <section id="section-5">
         
         <div id="section-5-upr">
-            <div class="section-5-imgbox">
+            <a href="business-page2.php">
+                <div class="section-5-imgbox">
                 <div class="section-5-imgbox-div"><img src="images/images 1 (1).png" alt=""></div>
                 <h3>Key Managements</h3>
                 <h6>Our experienced leadership team steers the company with strategic vision and expertise.
 They drive innovation, performance, and long-term growth.</h6>
             </div>
-            <div class="section-5-imgbox">
+
+            </a>
+
+            
+            <a href="business-page3.php">
+                <div class="section-5-imgbox">
                 <div class="section-5-imgbox-div"><img src="images/images 1 (1).png" alt=""></div>
                 <h3>Our Products</h3>
-                <h6>We offer a diverse range of high-quality products tailored to customer needs. Each product reflects our commitment to innovation and excellence.</h6>
+                <h6>We offer a diverse range of high-quality products tailored to customer needs.
+Each product reflects our commitment to innovation and excellence.</h6>
             </div>
+
+            </a>
+        </div>
+            
+            
         </div>
         <div id="section-5-lower">
-            <div class="section-5-imgbox">
+            <a href="business-page4.php">
+                <div class="section-5-imgbox">
                 <div class="section-5-imgbox-div"><img src="images/images 1 (1).png" alt=""></div>
                 <h3>Company Statistics</h3>
                 <h6>We showcase impactful numbers reflecting our journey, scale, and achievements.
 These stats highlight our market presence and operational strength.</h6>
             </div>
-            <div class="section-5-imgbox">
+
+            </a>
+            <a href="business-page5.php">
+                <div class="section-5-imgbox">
                 <div class="section-5-imgbox-div"><img src="images/images 1 (1).png" alt=""></div>
                 <h3>Our Activities</h3>
                 <h6>Beyond business, we engage in meaningful initiatives and industry events.
 Our activities reflect our values, community focus, and social responsibility.</h6>
             </div>
+
+            </a>
         </div>
     </section>
     <section id="section-6">
