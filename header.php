@@ -56,14 +56,14 @@
 				<div class="column">
 				  <h3>Packaging Unit</h3>
 				  <ul>
-				  <li><a href="#">Pashupati Laminators Pvt. Ltd.</a></li>
-				  <li><a href="#">Salasar Techno Tex Pvt. Ltd.</a></li>
+				  <li><a href="business-page5.php">Pashupati Laminators Pvt. Ltd.</a></li>
+				  <li><a href="sustainability-page.php">Salasar Techno Tex Pvt. Ltd.</a></li>
 				  </ul>
 				</div>
 				<div class="column">
 				  <h3>Masterbatch Unit</h3>
 				  <ul>
-				  <li><a href="#">Shree Ram Polymers</a></li>
+				  <li><a href="EPR and Waste management.php">Shree Ram Polymers</a></li>
 				  </ul>
 				</div>
 				<div class="column">

@@ -1,0 +1,158 @@
+
+#business-bg-div {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#business-bg-div img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+#section-1-container {
+    position: absolute;
+    width: 37.292vw;
+    top: 12vw;          /* vertically center */
+    left: 7%;         /* horizontally center */
+    color: white;      /* make text visible over image */
+    z-index: 2;        /* ensure it stays above image */
+}
+#section-1-footer{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6%;
+
+}
+#section-1-footer img{
+    width: 1vw;
+    height: 1vw;
+}
+#section-1 h3{
+    font-family: "Roboto", sans-serif;
+    font-style: regular;
+    font-size: 36px;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 0%;
+}
+#section-1 h1{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 100%;
+  font-size: 3.889vw;
+  padding: 0%;
+  padding-bottom: 1%;
+  width: 58.542vw;
+
+}
+#section-1 h6{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.972vw;
+    line-height: 100%;
+}
+
+
+
+#section-2, #section-4, #section-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 6%;
+    margin-bottom: 0%;
+}
+#section-2 h1, #section-4 h1, #section-6 h1{
+    line-height: 100%;
+    font-size: 2.778vw;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    font-style: semibold;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+#section-2 h3, #section-4 h3, #section-6 h3{
+    line-height: 150%;
+    font-family: "Roboto", sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 1.25vw;
+    letter-spacing: 0%;
+    width: 62.014vw;
+    text-align: center;
+}
+
+
+
+
+#section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 4%;
+    margin-top: 5%;
+}
+#section-3-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+#section-3-left h1{
+    font-family: "Playfair Display", serif;
+    font-style: semibold;
+    font-size: 3.333vw;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+#section-3-left h3{
+    font-family: "Roboto", sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 1.111vw;
+    line-height: 150%;
+    letter-spacing: 0%;
+    padding: 0%;
+    margin-top: 1%;
+    width: 35.764vw;
+}
+#section-3-right{
+    width: 55%;
+    overflow: hidden;   
+}
+#section-3-right img{
+    width: 48.681vw;
+    border-radius: 1.111vw;
+}
+
+
+
+#section-5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#section-5 div{
+    width: 88.889vw;
+
+}
+#section-5 img{
+    width: 100%;
+}
