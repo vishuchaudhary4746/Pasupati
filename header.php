@@ -127,7 +127,7 @@
 			</div>
 			</li>
         <li><a href="#">Careers</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="contactus.php">Contact Us</a></li>
       </ul>
     </div>
 	
