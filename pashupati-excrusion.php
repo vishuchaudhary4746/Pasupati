@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include('head.php') ?>
-<link rel="stylesheet" href="business-page11.css">
+<link rel="stylesheet" href="pashupati-polytex.css">
 <head><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
     <div class="inner-main csr-vision business-inside-page">
     <section id="hero" class="d-flex align-items-end inside-banner">
         <div class="video-bg"> 
-          <img src="images/product-banner.jpg" class="img-fluid" alt="">       
+          <img src="images2/excrusion-banner.webp" class="img-fluid" alt="">       
         </div>
         <div class="container content-info" data-aos="zoom-out" data-aos-delay="100">
     		<div class="left">
@@ -56,7 +56,7 @@
                   </div>
             </div> 
             <div class="col-sm-7 right">
-                  <div class="image"><img src="images/ppkm01dp.jpg" class="img-responsive round" alt="">    </div>
+                  <div class="image"><img src="images2/image1.webp" class="img-responsive round" alt="">    </div>
             </div>
           </div>
           </div>
@@ -67,8 +67,8 @@
           <div class="row">
                <div class="col-sm-6 left">
                   <div class="my-slider my-slider2">
-                  <div class="image"><img src="images/ppkm01dp.jpg" class="img-responsive" alt=""> </div>
-                  <div class="image"><img src="images/ppkm01dp.jpg" class="img-responsive" alt=""> </div>
+                  <div class="image"><img src="images2/image3.webp" class="img-responsive" alt=""> </div>
+                  <div class="image"><img src="images2/image4.jpg" class="img-responsive" alt=""> </div>
                   </div>
                   </div>
                   
@@ -114,7 +114,7 @@ production, prompt deliveries and, in turn, customer satisfaction.
           <div class="row" style="align-items: start;">
             <div class="col-sm-6">
               <div class="box">
-        		<div class="image"><img src="images/ppkm01d.jpg" class="b-img img-responsive round" alt=""></div>  
+        		<div class="image"><img src="images2/image5.jpg" class="b-img img-responsive round" alt=""></div>  
                 <div class="info">
                   <h3>Key Managements</h3>   
                   <p>Our experienced leadership team steers the company with strategic vision and expertise.
@@ -124,7 +124,7 @@ They drive innovation, performance, and long-term growth.</p>
             </div>
         	<div class="col-sm-6 textcenter">      
               <div class="box">
-        		<div class="image"><img src="images/ppkm01dpp01.jpg" class="b-img img-responsive round" alt=""></div>  
+        		<div class="image"><img src="images2/image8.webp" class="b-img img-responsive round" alt=""></div>  
                 <div class="info">
                   <h3>Our Products</h3>
                   <p>We offer a diverse range of high-quality products tailored to customer needs.
@@ -137,7 +137,7 @@ Each product reflects our commitment to innovation and excellence.</p>
           <div class="row" style="align-items: start;">
             <div class="col-sm-6">
               <div class="box">
-        		<div class="image"><img src="images/ppkm01dpp02.jpg" class="b-img img-responsive round" alt=""></div>  
+        		<div class="image"><img src="images2/image10.jpg" class="b-img img-responsive round" alt=""></div>  
                 <div class="info">
                   <h3>Company Statistics</h3>
                   <p>We showcase impactful numbers reflecting our journey, scale, and achievements.
@@ -147,7 +147,7 @@ These stats highlight our market presence and operational strength.</p>
             </div>
         	<div class="col-sm-6 textcenter">      
               <div class="box">
-        		<div class="image"><img src="images/ppkm01dpp03.jpg" class="b-img img-responsive" alt=""></div>  
+        		<div class="image"><img src="images2/image11.jpg" class="b-img img-responsive" alt=""></div>  
                 <div class="info">
                   <h3>Our Activities</h3>
                   <p>Beyond business, we engage in meaningful initiatives and industry events.

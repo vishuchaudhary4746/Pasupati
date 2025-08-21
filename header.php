@@ -47,35 +47,35 @@
 				<div class="column">
 				  <h3>Recycling Unit</h3>
 				  <ul>
-				  <li><a href="business-page1.php">Pashupati Polytex Pvt. Ltd.</a></li>
-				  <li><a href="business-page2.php">Pashupati Excrusion Pvt. Ltd.</a></li>
-				  <li><a href="business-page3.php">Kundana Techno Tex Pvt. Ltd.</a></li>
-				  <li><a href="business-page4.php">Saurabh Clean Tech Pvt. Ltd.</a></li>
+				  <li><a href="pashupati-polytex.php">Pashupati Polytex Pvt. Ltd.</a></li>
+				  <li><a href="pashupati-excrusion.php">Pashupati Excrusion Pvt. Ltd.</a></li>
+				  <li><a href="kundana-techno.php">Kundana Techno Tex Pvt. Ltd.</a></li>
+				  <li><a href="saurabh-clean.php">Saurabh Clean Tech Pvt. Ltd.</a></li>
 				  </ul>
 				</div>
 				<div class="column">
 				  <h3>Packaging Unit</h3>
 				  <ul>
-				  <li><a href="business-page5.php">Pashupati Laminators Pvt. Ltd.</a></li>
-				  <li><a href="sustainability-page.php">Salasar Techno Tex Pvt. Ltd.</a></li>
+				  <li><a href="pashupati-laminator.php">Pashupati Laminators Pvt. Ltd.</a></li>
+				  <li><a href="salasar-techno.php">Salasar Techno Tex Pvt. Ltd.</a></li>
 				  </ul>
 				</div>
 				<div class="column">
 				  <h3>Masterbatch Unit</h3>
 				  <ul>
-				  <li><a href="EPR and Waste management.php">Shree Ram Polymers</a></li>
+				  <li><a href="shree-ram-polymers.php">Shree Ram Polymers</a></li>
 				  </ul>
 				</div>
 				<div class="column">
 				  <h3>Textile Unit</h3>
 				  <ul>
-				  <li><a href="#">SRM Spinners Ltd.</a></li>
+				  <li><a href="srm-spinners.php">SRM Spinners Ltd.</a></li>
 				  </ul>
 				</div>
 				<div class="column">
 				  <h3>Waste Management Services</h3>
 				  <ul>
-				  <li><a href="#">World Waste Recycling Pvt. Ltd.</a></li>
+				  <li><a href="world-waste-recycling.php">World Waste Recycling Pvt. Ltd.</a></li>
 				  </ul>
 				</div>
 			  </div>
