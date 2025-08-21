@@ -102,7 +102,7 @@ They drive innovation, performance, and long-term growth.</p>
             </div>
         	<div class="col-sm-6 textcenter">      
               <div class="box">
-        		<div class="image"><img src="images2/image40.webp" class="b-img img-responsive round" alt=""></div>  
+        		<div class="image"><img src="images2/image40.jpg" class="b-img img-responsive round" alt=""></div>  
                 <div class="info">
                   <h3>Our Products</h3>
                   <p>We offer a diverse range of high-quality products tailored to customer needs.
@@ -115,7 +115,7 @@ Each product reflects our commitment to innovation and excellence.</p>
           <div class="row" style="align-items: start;">
             <div class="col-sm-6">
               <div class="box">
-        		<div class="image"><img src="images2/image41.webp" class="b-img img-responsive round" alt=""></div>  
+        		<div class="image"><img src="images2/image41.jpg" class="b-img img-responsive round" alt=""></div>  
                 <div class="info">
                   <h3>Company Statistics</h3>
                   <p>We showcase impactful numbers reflecting our journey, scale, and achievements.
